@@ -1,0 +1,30 @@
+ServiceNow Knowledge Base
+Category: End User Support
+Subcategory: Account Issues
+
+Title: User Account Issue Resolution
+
+Overview:
+This document covers common user account-related issues logged in ServiceNow.
+
+Common Issues:
+- Account locked
+- Password expired
+- Login authentication failure
+- Multi-factor authentication problems
+
+Validation Steps:
+1. Verify user identity.
+2. Check account status in identity management system.
+3. Review recent login attempts.
+4. Confirm MFA device enrollment status.
+
+Resolution Steps:
+1. Unlock the user account.
+2. Reset password if necessary.
+3. Re-enroll MFA device.
+4. Ask user to retry login and confirm access.
+
+Escalation Criteria:
+- Repeated account lockouts
+- MFA service outages
