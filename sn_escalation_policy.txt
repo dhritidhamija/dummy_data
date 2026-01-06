@@ -1,0 +1,24 @@
+ServiceNow Knowledge Base
+Category: IT Operations
+Subcategory: Escalation Policy
+
+Title: Incident Escalation Policy
+
+Overview:
+This document defines escalation rules for ServiceNow incidents.
+
+Applicable Areas:
+- Incident Management
+- Network Services
+- Access Management
+
+Escalation Rules:
+- If multiple users are impacted, escalate to L3 support.
+- If there is risk of SLA breach, notify the service owner.
+- If the incident is security-related, assign to Security Operations.
+
+Mandatory Fields Before Escalation:
+- Incident Category
+- Subcategory
+- Assignment Group
+- Work Notes
