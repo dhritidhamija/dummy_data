@@ -1,0 +1,35 @@
+ServiceNow Knowledge Base
+Category: IT Services
+Subcategory: Access Management
+
+Title: User Access Request Handling
+
+Overview:
+This document explains how ServiceNow support teams should handle user access-related incidents and requests.
+
+Common Access Issues:
+- User cannot access an internal application
+- Access request stuck in pending approval
+- Incorrect role assigned
+- Access removed without notification
+
+Initial Checks:
+1. Verify that a ServiceNow incident or request exists.
+2. Confirm the application name mentioned by the user.
+3. Check the user's role assignment in ServiceNow.
+4. Validate approval status in the request workflow.
+5. Confirm the user's employment and department details.
+
+Resolution Steps:
+1. Re-trigger approval workflow if approvals are pending.
+2. Assign correct role based on access matrix.
+3. Sync user profile with identity management system.
+4. Ask the user to log out and log back in to confirm access.
+
+Escalation Criteria:
+- Approval workflow failures
+- Role mapping issues
+- Identity synchronization errors
+
+Assignment Group:
+IAM Support Team
