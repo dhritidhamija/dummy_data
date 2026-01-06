@@ -1,0 +1,31 @@
+{
+  "incidents": [
+    {
+      "incident_number": "INC0012345",
+      "category": "Network",
+      "subcategory": "VPN",
+      "short_description": "User unable to connect to VPN",
+      "impact": "Remote user unable to access internal systems",
+      "root_cause": "VPN client misconfiguration",
+      "resolution": "Reconfigured VPN client and restarted services. User confirmed access restored."
+    },
+    {
+      "incident_number": "INC0012346",
+      "category": "Network",
+      "subcategory": "VPN",
+      "short_description": "VPN disconnects frequently",
+      "impact": "Intermittent application access",
+      "root_cause": "Unstable network connection",
+      "resolution": "Advised user to switch network and updated VPN client. Issue resolved."
+    },
+    {
+      "incident_number": "INC0012347",
+      "category": "Network",
+      "subcategory": "VPN",
+      "short_description": "Backend unreachable after VPN login",
+      "impact": "Business applications inaccessible",
+      "root_cause": "Firewall rule blocking VPN traffic",
+      "resolution": "Updated firewall rules and validated access. Service restored."
+    }
+  ]
+}
