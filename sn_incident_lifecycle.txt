@@ -1,0 +1,33 @@
+ServiceNow Knowledge Base
+Category: Incident Management
+Subcategory: Incident Lifecycle
+
+Title: Incident Lifecycle Management Guidelines
+
+Overview:
+This document describes the standard lifecycle of an incident in ServiceNow.
+
+Incident States:
+- New
+- In Progress
+- Awaiting User Information
+- Resolved
+- Closed
+
+Best Practices:
+- Update work notes at every stage.
+- Ensure correct categorization and prioritization.
+- Obtain user confirmation before resolving incidents.
+
+Common Issues:
+- Incidents resolved without proper notes
+- Incorrect incident category
+- Missing assignment group
+
+Resolution Notes Example:
+"Incident analyzed, root cause identified, fix applied, and user confirmed service restoration."
+
+Escalation Guidelines:
+- Risk of SLA breach
+- Multiple re-openings
+- Business critical services affected
