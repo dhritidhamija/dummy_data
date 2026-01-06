@@ -1,0 +1,30 @@
+ServiceNow Knowledge Base
+Category: Network Services
+Subcategory: Performance Issues
+
+Title: Network Performance and Latency Troubleshooting
+
+Overview:
+This document helps support teams diagnose network performance and latency-related incidents.
+
+Symptoms:
+- Slow application response
+- Delayed data transfers
+- Intermittent connectivity issues
+
+Preliminary Checks:
+1. Confirm incident category is Network.
+2. Identify affected user location and time window.
+3. Check if the issue impacts a single user or multiple users.
+4. Verify whether VPN or direct network is being used.
+
+Troubleshooting Steps:
+1. Ask the user to run a basic internet speed test.
+2. Check network monitoring dashboards for congestion.
+3. Validate there are no ongoing maintenance activities.
+4. Test connectivity to internal systems.
+
+Escalation Criteria:
+- Widespread user impact
+- Backbone network saturation
+- External service provider issues
